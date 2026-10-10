@@ -13,15 +13,21 @@ My Goal: I built a clean, interactive two-page Power BI dashboard to turn this m
 
 📊 The Core Insights I Discovered
 
-• The Seasonal Goldmine: Fall is the star season, bringing in the highest sales ($60K) and the biggest checkout sizes ($61.6 AOV). On the other hand, Summer is a major slump period, hitting the lowest revenue ($56K).
+• The Seasonal Goldmine: Fall is the primary revenue engine ($60K revenue / $61.6 AOV), while Summer marks the definitive commercial low point ($56K revenue / $58.4 AOV).
 
 
-• The Loyalty Funnel Paradox: Our product quality is amazing—an incredible 97.9% of our 3,900 shoppers return to buy a second time. However, we are failing to lock them into our membership program. A massive 72.4% leak exists at the bottom of our funnel, leaving half of our entire database (1,962 shoppers) completely unsubscribed even though they are highly loyal.
+• The Retention Paradox: We boast an elite 97.9% initial customer retention rate (3,817 out of 3,900 shoppers return).
 
 
-• Deal Breakers & Shipping Friction: Counter-intuitively, sending out discount coupons actually lowered customer satisfaction scores (CSAT dropped from 42.38 down to 41.26). Also, Free Shipping scored the worst (39.26 CSAT) compared to Standard Shipping (46.64 CSAT), proving our free delivery partners are way too slow.
+• The Subscription Leak: A massive 72.4% loyalty drop-off happens at the bottom of the funnel, leaving 50% of the entire database (1,962 shoppers) classified as "Loyal" but completely unsubscribed.
 
-🛠️ How I Structured the Dashboard
+
+• Deal Breakers & Shipping Friction: Generic coupon promotions decrease baseline customer satisfaction (CSAT drops from 42.38 to 41.26).
+
+
+• Fulfillment Bottlenecks: Free Shipping scored the worst (39.26 CSAT) compared to Standard Shipping (46.64 CSAT), proving free delivery partners are way too slow.
+
+# 🛠️ How I Structured the Dashboard
 
 
 # Page 1: Strategic Revenue Overview (The Big Picture)
