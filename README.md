@@ -59,4 +59,4 @@ My Goal: I built a clean, interactive two-page Power BI dashboard to turn this m
 • Stop Store-Wide Discounting: Phase out generic coupons since the data proves they hurt customer satisfaction while needlessly eating away at net profits.
 
 
-
+link to dashboard - https://app.powerbi.com/view?r=eyJrIjoiMjU2NzI2YzgtMzc2ZC00M2NmLTlhZWMtN2UyZjFlYzNlNjU4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
