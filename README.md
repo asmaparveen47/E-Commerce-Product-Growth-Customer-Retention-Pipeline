@@ -36,9 +36,5 @@ My Goal: I built a clean, interactive two-page Power BI dashboard to turn this m
 • Fix Free Shipping: Audit our free delivery methods immediately to speed up transit times and rescue our lowest-performing fulfillment satisfaction score.
 • Stop Store-Wide Discounting: Phase out generic coupons since the data proves they hurt customer satisfaction while needlessly eating away at net profits.
 
-Funnel_Stage_1_Total_Shoppers = DISTINCTCOUNT('RetailData'[customer_id])
 
-Funnel_Stage_2_Repeat_Buyers  = CALCULATE(DISTINCTCOUNT('RetailData'[customer_id]), 'RetailData'[previous_purchases] >= 1)
-
-Funnel_Stage_3_Subscribers    = CALCULATE(DISTINCTCOUNT('RetailData'[customer_id]), 'RetailData'[subscription_status] = "Yes")
 
