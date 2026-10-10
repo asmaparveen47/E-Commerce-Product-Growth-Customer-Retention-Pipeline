@@ -36,9 +36,9 @@ My Goal: I built a clean, interactive two-page Power BI dashboard to turn this m
 • Fix Free Shipping: Audit our free delivery methods immediately to speed up transit times and rescue our lowest-performing fulfillment satisfaction score.
 • Stop Store-Wide Discounting: Phase out generic coupons since the data proves they hurt customer satisfaction while needlessly eating away at net profits.
 
-# 📋 The Loyalty Pipeline At A Glance
+Funnel_Stage_1_Total_Shoppers = DISTINCTCOUNT('RetailData'[customer_id])
 
-Funnel Stage	                Total Customers	Stage Conversion %	      Cumulative Drop-off	Core Focus
-Stage 1: Total Shoppers	      3,900	100.0% Baseline	                     0.0%	Initial brand awareness.
-Stage 2: Retained Shoppers	  3,817	97.9% Conversion	                   2.1% (Low Churn)	Cross-sell premium add-ons.
-Stage 3: Paid Subscribers	    1,053	27.6% Final Tier	                   72.4% Drop-off	Primary Fix: Convert the 1,962 loyal non-subscribers.
+Funnel_Stage_2_Repeat_Buyers  = CALCULATE(DISTINCTCOUNT('RetailData'[customer_id]), 'RetailData'[previous_purchases] >= 1)
+
+Funnel_Stage_3_Subscribers    = CALCULATE(DISTINCTCOUNT('RetailData'[customer_id]), 'RetailData'[subscription_status] = "Yes")
+
